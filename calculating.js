@@ -1,19 +1,13 @@
-const calculator={
-  add:function(a,b){
-    return a+b;
-  },
-  minus:function(a,b){
-    return a-b;
-  },
-  devide:function(a,b){
-    return a/b;
-  },
-  power:function(a,b){
-    return a**b;
-  }
-  }
+const Number=document.querySelectorAll(".column1 button");
+
+
+function handleNumberClick(){
+
+  console.log("1");
+}
+
+
+
   
-  const plusResult=calculator.add(1,2);
+Number.addEventListener("click",handleNumberClick);
   
-  
-  console.log(plusResult);
